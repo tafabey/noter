@@ -26,4 +26,4 @@ The program will take a command from you:
 - **delete**: Deletes note
 - **exit**: Exits the program
 
-This program licensed with MIT Licence, look [LICENSE] file for the details
+This program licensed with MIT Licence, look [LICENSE](LICENSE) file for the details
