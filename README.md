@@ -1,10 +1,10 @@
 # noter
-Noter is a basic terminal notepad program, it writed with C; you can add, show and delete notes
+Noter is a basic terminal notepad program written in C; you can add, show, and delete notes.
 
 ## Features
-- Take notes until 20 lines.
-- Saving notes into file (`notes.txt`)
-- Add, show and deleting notes
+- Take notes up to 20 lines.
+- Save notes to a file (`notes.txt`).
+- Add, show and delete notes
 - A basic terminal interface
 
 ## Compiling the program
@@ -20,10 +20,10 @@ make clean
 ./noter
 ```
 ## How to use
-The program will take a command from you:
+The program will prompt you for a command:
 - **add**: Takes note
 - **show**: Shows all notes
 - **delete**: Deletes note
 - **exit**: Exits the program
 
-This program licensed with MIT Licence, look [LICENSE](LICENSE) file for the details
+This program is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
