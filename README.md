@@ -26,4 +26,4 @@ The program will prompt you for a command:
 - **delete**: Deletes note
 - **exit**: Exits the program
 
-This program is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This program is licensed under the BSD-3-Clause License. See the [LICENSE](LICENSE) file for details.
