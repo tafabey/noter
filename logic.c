@@ -8,7 +8,7 @@ FILE *notes;
 char loop = 1;
 char read_line = 1;
 
-void add_note(int line, char note[100]) {
+void add_note(int line, char note[]) {
     strcpy(note_list[line - 1], note);
     write_file();
 }

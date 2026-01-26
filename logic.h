@@ -5,7 +5,7 @@ extern char note_list[20][100];
 extern FILE *notes;
 extern char loop;
 
-void add_note(int line, char note[100]);
+void add_note(int line, char note[]);
 void show_notes();
 void delete_note(int line);
 void read_file();
