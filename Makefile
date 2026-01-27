@@ -1,11 +1,18 @@
-noter: main.o logic.o
-	gcc -Wall main.o logic.o -o noter
+CC = gcc
+CFLAGS = -Wall
+TARGET = noter.elf
+OBJS = main.o logic.o
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o $(TARGET)
 
 main.o: main.c logic.h
-	gcc -Wall -c main.c
+	$(CC) $(CFLAGS) -c main.c
 
 logic.o: logic.c logic.h
-	gcc -Wall -c logic.c
+	$(CC) $(CFLAGS) -c logic.c
 
 clean:
-	rm -f *.o
+	rm -f $(OBJS) $(TARGET)
+
+.PHONY: clean

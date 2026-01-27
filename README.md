@@ -11,13 +11,13 @@ Noter is a basic terminal notepad program written in C; you can add, show, and d
 ```bash
 make
 ```
-## Cleaning .o files
+## Cleaning *.o files and executable
 ```bash
 make clean
 ```
 ## Running the program
 ```bash
-./noter
+./noter.elf
 ```
 ## How to use
 The program will prompt you for a command:
