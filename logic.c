@@ -77,8 +77,5 @@ void check(char choose[6]) {
 
 void exit_program() {
     write_file();
-    if(notes != NULL) {
-    fclose(notes);
-    }
     loop = 0;
 }
